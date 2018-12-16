@@ -1,0 +1,56 @@
+<nav class='navbar navbar-expand navbar-light bg-light mb-3'>
+    <a class='navbar-brand' style="font-weight: bold">{{pageTitle}}</a>
+    <ul class='nav nav-pills'>
+        <li routerLinkActive="active">
+            <a class='nav-link' [routerLink]="['/welcome']">Home</a>
+        </li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <a class='nav-link' [routerLink]="['/products']">Product List</a>
+        </li>
+        <li routerLinkActive="active">
+            <a class='nav-link' [routerLink]="['/products', 0,'edit']">Add Product</a>
+        </li>
+    </ul>
+    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li *ngIf="authService.isLoggedIn()">
+            <a class="nav-link" [routerLink]="['/login']">Welcome {{ authService.currentUser.userName}}</a>
+        </li>
+        <li *ngIf="!messageService.isDisplayed">
+            <a class="btn btn-secondary mr-2" (click)="displayMessages()">Show Messages</a>
+        </li>
+        <li *ngIf="messageService.isDisplayed">
+            <a class="btn btn-secondary mr-2" (click)="hideMessages()">Hide Messages</a>
+        </li>
+        <li *ngIf="!authService.isLoggedIn()">
+            <a class="btn btn-success" [routerLink]="['/login']">Login</a>
+        </li>
+        <li *ngIf="authService.isLoggedIn()">
+            <a class="btn btn-danger" (click)="logOut()">Log Out</a>
+        </li>
+    </ul>
+</nav>
+<div class='container-fluid'>
+    <div class="row">
+        <div class="col-sm-10">
+            <router-outlet>
+                <div class="sk-fading-circle" *ngIf="loading">
+                    <div class="sk-circle1 sk-circle"></div>
+                    <div class="sk-circle2 sk-circle"></div>
+                    <div class="sk-circle3 sk-circle"></div>
+                    <div class="sk-circle4 sk-circle"></div>
+                    <div class="sk-circle5 sk-circle"></div>
+                    <div class="sk-circle6 sk-circle"></div>
+                    <div class="sk-circle7 sk-circle"></div>
+                    <div class="sk-circle8 sk-circle"></div>
+                    <div class="sk-circle9 sk-circle"></div>
+                    <div class="sk-circle10 sk-circle"></div>
+                    <div class="sk-circle11 sk-circle"></div>
+                    <div class="sk-circle12 sk-circle"></div>
+                </div>
+            </router-outlet>
+        </div>
+        <div class="col-sm-2">
+            <router-outlet name="popup"></router-outlet>
+        </div>
+    </div>
+</div>

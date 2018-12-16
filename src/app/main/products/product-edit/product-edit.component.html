@@ -1,0 +1,38 @@
+<div class="card">
+  <div class="card-header">
+    {{pageTitle}}
+  </div>
+  <div class="card-body">
+    <div class="wizard">
+      <a [routerLink]="['info']" routerLinkActive="active">
+        Basic Information
+      </a>
+      <a [routerLink]="['tags']" routerLinkActive="active">
+        Search Tags
+      </a>
+    </div>
+
+    <router-outlet></router-outlet>
+  </div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-2">
+        <span>
+          <button class="btn btn-primary" type="button" (click)="saveProduct()">
+            Save
+          </button>
+        </span>
+        <span>
+          <button class="btn btn-default" [routerLink]="['/products']">
+            Cancel
+          </button>
+        </span>
+        <span>
+          <a class="btn btn-default" (click)="deleteProduct()">
+            Delete
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

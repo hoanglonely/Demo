@@ -1,0 +1,79 @@
+[
+    {
+      "productId": 1,
+      "productName": "HẰNG RUBY",
+      "phoneNumber": "0961383662",
+      "productCode": "60-90-60",
+      "releaseDate": "7h-24h",
+      "description": "Hàng Tiếp Khách - Hàng Ngoại Giao - Cave Hà Nội Cao Cấp",
+      "price": 3000,
+      "starRating": 3.2,
+      "imageUrl": "http://upload69.xyz/images/2018/09/09/bfe983a631e7d00f4baa648f2bd72182.jpg"
+    },
+    {
+      "productId": 2,
+      "productName": "LINH PARIS",
+      "phoneNumber": "0967927818",
+      "productCode": "89-59-93",
+      "releaseDate": "Fullstack",
+      "description": "Cuộc sống thì không giống như cuộc đời, mà đời đôi khi là bể khổ, cố gắng vất vả qua được bể khổ thì ... qua đời nên Sống là không chờ đợi ... hãy hưởng thụ đi thôi!",
+      "price": 2000,
+      "starRating": 4.2,
+      "imageUrl": "http://upload69.xyz/images/2018/09/13/56d018616a8c7d99da413dfd68936287.jpg"
+    },
+    {
+      "productId": 3,
+      "productName": "NGỌC LINH",
+      "phoneNumber": "0981 039 521",
+      "productCode": "92-62-92",
+      "releaseDate": "10h-24h",
+      "description": "Dễ thương ưa nhìn với đôi mắt tròn to, mũi dọc dừa và nụ cười luôn hé trên môi.",
+      "price": 1000,
+      "starRating": 4.8,
+      "imageUrl": "http://upload69.xyz/images/2018/07/17/5465f7fb50fe379211021062a7d9da96.jpg"
+    },
+    {
+      "productId": 4,
+      "productName": "Mai Ka",
+      "phoneNumber": "098 145 3582",
+      "productCode": "90-60-90",
+      "releaseDate": "Fullstack",
+      "description": "Em là NỮ THẦN TÌNH YÊU bởi sự đáng yêu vô ngần, ngây thơ, tinh nghịch nhưng bạn không có cơ hội cho một cái chau mày bởi sự ngọt ngào mà em nó mang lại cho bạn.",
+      "price": 1500,
+      "starRating": 3.7,
+      "imageUrl": "http://upload69.xyz/images/2018/09/16/52b78ed21a67adc59f3178667dfb6da4.jpg"
+    },
+    {
+      "productId": 5,
+      "productName": "MY TÂY",
+      "phoneNumber": "098 506 4829",
+      "productCode": "92-62-93",
+      "releaseDate": "11h – 23h",
+      "description": "ĐÔI MẮT BIẾT NÓI - ĐÔI MÔI BIẾT CƯỜI & BODY GỢI DỤC THẬT ĐÁNG GIÁ",
+      "price": 1500,
+      "starRating": 4.6,
+      "imageUrl": "http://upload69.xyz/images/2018/06/13/7c6300b0e92c4b61b0932fb169e11936.jpg"
+    },
+    {
+      "productId": 6,
+      "productName": "Diệp Anh",
+      "phoneNumber": "0966 545004",
+      "productCode": "92-61-94",
+      "releaseDate": "11h – 23h",
+      "description": "Người ta vẫn có câu chẳng có ai hoàn hảo cả, nhưng em là một trường hợp ngoại lệ tạo hóa đặc biệt vẽ nên, có lẽ ông trời ban tặng em quá nhiều thứ mà bao nhiêu phự nữ khát khao thèm muốn. Chưa gặp một ai tuyệt vời đến thế và chưa bao giờ mình lại viết cảm xúc đến thế. Đôi mắt hút hồn, nụ cười hàm tiếu, chiều cao 1m67, sở hữu ba vòng chuẩn như một siêu mẫu đó là những yếu tố ăn điểm mà khi anh em tiếp cận.",
+      "price": 1000,
+      "starRating": 4.6,
+      "imageUrl": "http://checkerviet.org/images/2018/07/06/IMG_9510.jpg"
+    },
+    {
+      "productId": 7,
+      "productName": "Hương Trà",
+      "phoneNumber": "09777 435 09",
+      "productCode": "92-62–93",
+      "releaseDate": "11h – 23h",
+      "description": "Một NEW hot gơ để thay thế các hot gơ ở khu vực Nguyễn Khánh Toàn. Sự soán ngôi hoàn hảo. Từ hôm nay checkerviet có thêm một mỹ nhân tuyệt sắc. Cực độ nóng bỏng và sexy đang chờ anh em đến - ở nơi đó có Hương Trà đang chờ.",
+      "price": 1500,
+      "starRating": 2.6,
+      "imageUrl": "http://upload69.xyz/images/2018/06/25/fee854c01cfd9d357670ce23ce2edf1f.jpg"
+    }
+  ]

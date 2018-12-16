@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+        <span class="col-sm-10">Message Log</span>
+        <i class="fa fa-times col-sm-2" (click)="close()"></i>
+        <!-- <span class="col-sm-2">
+            <a class="btn btn-default" (click)="close()">x</a>
+        </span> -->
+    </div>
+    </div>
+    <div class="card-body">
+        <div *ngFor="let message of messageService.messages; let i=index">
+            <div *ngIf="i < 10" class="message-row">
+                {{ message }}
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a class="btn btn-outline-danger" (click)="deleteLog()">Clear Log</a>
+    </div>
+</div>
